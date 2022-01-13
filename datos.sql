@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-01-2022 a las 01:15:52
+-- Tiempo de generación: 12-01-2022 a las 01:41:44
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 7.4.27
 
@@ -57,8 +57,7 @@ INSERT INTO `datos` (`id`, `nombre`, `email`, `fecha_reg`) VALUES
 (33, 'Wilmer', 'nunezwilmer892@gmail.com', '10/01/22'),
 (34, 'Wilmer', 'nunezwilmer892@email.com', '11/01/22'),
 (35, 'Wilmer', 'nunezwilmer892@email.com', '11/01/22'),
-(36, 'Wilmer', 'nunezwilmer892@email.com', '11/01/22'),
-(37, 'Wilmer', 'nunezwilmer892@email.com', '13/01/22');
+(36, 'Wilmer', 'nunezwilmer892@email.com', '11/01/22');
 
 --
 -- Índices para tablas volcadas
@@ -78,7 +77,7 @@ ALTER TABLE `datos`
 -- AUTO_INCREMENT de la tabla `datos`
 --
 ALTER TABLE `datos`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
